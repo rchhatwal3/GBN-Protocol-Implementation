@@ -1,4 +1,4 @@
-This project was for my Networks Engineering class and is a way to demonstrate our knowledge of Reliable Data Transfer by implementing the full Go-Back-N (GBN Protocol).  
+This project was for my Network Engineering class and is a way to demonstrate our knowledge of Reliable Data Transfer by implementing the full Go-Back-N (GBN Protocol).  
 
 The implementation is done in GBNHost.py using Python 3.5.2 with a simulated server being made in the Simulator.py file. 
 
