@@ -1,0 +1,449 @@
+-----  Sliding Window Network Simulator Version -------- 
+
+A @ 0.0036: Received from Layer 5: aaaaaaaaaa
+A @ 0.0036: Passing to the Network Layer: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 3864, LEN: 10, PAYLOAD: aaaaaaaaaa]
+A @ 0.0036: Starting Timer
+A @ 0.0114: Received from Layer 5: bbbbbbbbbb
+A @ 0.0114: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+A @ 0.0114: CORRUPTING PACKET!
+B @ 0.0196: Received from Layer 5: cccccccccc
+B @ 0.0196: Passing to the Network Layer: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 1294, LEN: 10, PAYLOAD: cccccccccc]
+B @ 0.0196: Starting Timer
+A @ 0.0360: Received from Layer 5: dddddddddd
+A @ 0.0360: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+A @ 0.0461: Received from Layer 5: eeeeeeeeee
+A @ 0.0461: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+A @ 0.0472: Received from Layer 5: ffffffffff
+B @ 0.0487: Received from Layer 5: gggggggggg
+B @ 0.0487: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 61688, LEN: 10, PAYLOAD: gggggggggg]
+A @ 0.0679: Received from Layer 5: hhhhhhhhhh
+A @ 0.0840: Received from Layer 5: iiiiiiiiii
+B @ 0.0870: Received from Layer 5: jjjjjjjjjj
+B @ 0.0870: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 57832, LEN: 10, PAYLOAD: jjjjjjjjjj]
+A @ 0.0939: Received from Layer 5: kkkkkkkkkk
+A @ 0.1111: Received from Layer 5: llllllllll
+B @ 0.1279: Received from Layer 5: mmmmmmmmmm
+B @ 0.1279: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 53976, LEN: 10, PAYLOAD: mmmmmmmmmm]
+A @ 0.1348: Received from Layer 5: nnnnnnnnnn
+B @ 0.1496: Received from Layer 5: oooooooooo
+A @ 0.1602: Received from Layer 5: pppppppppp
+B @ 0.1641: Received from Layer 5: qqqqqqqqqq
+B @ 0.1796: Received from Layer 5: rrrrrrrrrr
+B @ 0.1869: Received from Layer 5: ssssssssss
+B @ 0.2008: Received from Layer 5: tttttttttt
+B @ 0.2011: Received from Layer 5: uuuuuuuuuu
+B @ 0.2159: Received from Layer 5: vvvvvvvvvv
+B @ 0.2302: Received from Layer 5: wwwwwwwwww
+A @ 0.2421: Received from Layer 5: xxxxxxxxxx
+B @ 0.2471: Received from Layer 3: [SEQ: 8388610, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+B @ 0.2471: Passing to the Network Layer: [SEQ: 0, ACK: 0, ACK_FLAG: True, CKSUM: 65279, LEN: 0]
+A @ 0.2574: Received from Layer 5: yyyyyyyyyy
+B @ 0.2715: Received from Layer 5: zzzzzzzzzz
+B @ 0.7047: Received from Layer 3: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 3864, LEN: 10, PAYLOAD: aaaaaaaaaa]
+B @ 0.7047: Passing to application: aaaaaaaaaa
+B @ 0.7047: Passing to the Network Layer: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+A @ 1.5779: Received from Layer 3: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 1294, LEN: 10, PAYLOAD: cccccccccc]
+A @ 1.5779: Passing to application: cccccccccc
+A @ 1.5779: Passing to the Network Layer: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+B @ 1.7060: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+B @ 1.7060: Passing to the Network Layer: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+B @ 2.3207: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+B @ 2.3207: Passing to the Network Layer: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+B @ 2.3207: CORRUPTING PACKET!
+A @ 3.0036: Timer Interrupt
+A @ 3.0036: Passing to the Network Layer: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 3864, LEN: 10, PAYLOAD: aaaaaaaaaa]
+A @ 3.0036: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+A @ 3.0036: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+A @ 3.0036: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+A @ 3.0036: Starting Timer
+B @ 3.0196: Timer Interrupt
+B @ 3.0196: Passing to the Network Layer: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 1294, LEN: 10, PAYLOAD: cccccccccc]
+B @ 3.0196: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 61688, LEN: 10, PAYLOAD: gggggggggg]
+B @ 3.0196: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 57832, LEN: 10, PAYLOAD: jjjjjjjjjj]
+B @ 3.0196: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 53976, LEN: 10, PAYLOAD: mmmmmmmmmm]
+B @ 3.0196: Starting Timer
+A @ 3.0293: Received from Layer 3: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 61688, LEN: 10, PAYLOAD: gggggggggg]
+A @ 3.0293: Passing to application: gggggggggg
+A @ 3.0293: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 3.0674: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 57832, LEN: 10, PAYLOAD: jjjjjjjjjj]
+A @ 3.0674: Passing to application: jjjjjjjjjj
+A @ 3.0674: Passing to the Network Layer: [SEQ: 0, ACK: 3, ACK_FLAG: True, CKSUM: 65276, LEN: 0]
+A @ 3.0734: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 53976, LEN: 10, PAYLOAD: mmmmmmmmmm]
+A @ 3.0734: Passing to application: mmmmmmmmmm
+A @ 3.0734: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 3.1546: Received from Layer 3: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+A @ 3.1546: Starting Timer
+A @ 3.1546: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+A @ 3.1546: CORRUPTING PACKET!
+A @ 3.1987: Received from Layer 3: [SEQ: 0, ACK: 0, ACK_FLAG: True, CKSUM: 65279, LEN: 0]
+A @ 3.1987: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 3.7519: Received from Layer 3: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+B @ 3.7519: Starting Timer
+B @ 3.7519: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+A @ 4.1814: Received from Layer 3: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65279, LEN: 0]
+A @ 4.1814: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 4.1814: CORRUPTING PACKET!
+A @ 4.1826: Received from Layer 3: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+A @ 4.1826: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 4.4589: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+B @ 4.4589: Passing to the Network Layer: [SEQ: 0, ACK: 1, ACK_FLAG: True, CKSUM: 65278, LEN: 0]
+B @ 4.4589: LOSING PACKET!
+B @ 4.7364: Received from Layer 3: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+B @ 4.7364: Passing to application: bbbbbbbbbb
+B @ 4.7364: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+B @ 5.1080: Received from Layer 3: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 3864, LEN: 10, PAYLOAD: aaaaaaaaaa]
+B @ 5.1080: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+B @ 5.1569: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+B @ 5.1569: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 5.6663: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 57832, LEN: 10, PAYLOAD: jjjjjjjjjj]
+A @ 5.6663: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 5.6663: LOSING PACKET!
+A @ 5.8504: Received from Layer 3: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 1294, LEN: 10, PAYLOAD: cccccccccc]
+A @ 5.8504: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 5.9323: Received from Layer 3: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 61688, LEN: 10, PAYLOAD: gggggggggg]
+A @ 5.9323: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 5.9323: CORRUPTING PACKET!
+A @ 6.0556: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 53976, LEN: 10, PAYLOAD: mmmmmmmmmm]
+A @ 6.0556: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 6.1546: Timer Interrupt
+A @ 6.1546: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+A @ 6.1546: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+A @ 6.1546: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+A @ 6.1546: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+A @ 6.1546: LOSING PACKET!
+A @ 6.1546: Starting Timer
+B @ 6.2506: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 6.2506: Starting Timer
+B @ 6.2506: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 41124, LEN: 10, PAYLOAD: wwwwwwwwww]
+B @ 6.2506: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+B @ 6.2506: CORRUPTING PACKET!
+B @ 6.2506: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+B @ 6.3557: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+B @ 6.3557: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 6.8850: Received from Layer 3: [SEQ: 0, ACK: 3, ACK_FLAG: True, CKSUM: 65276, LEN: 0]
+B @ 6.8850: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 6.9982: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38559, LEN: 10, PAYLOAD: yyyyyyyyyy]
+B @ 6.9982: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 7.8108: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+A @ 7.8108: Passing to application: zzzzzzzzzz
+A @ 7.8108: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 7.8108: LOSING PACKET!
+B @ 8.8059: Received from Layer 3: [SEQ: 0, ACK: 4194308, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 8.8059: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 9.1546: Timer Interrupt
+A @ 9.1546: Passing to the Network Layer: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+A @ 9.1546: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+A @ 9.1546: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+A @ 9.1546: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+A @ 9.1546: Starting Timer
+A @ 9.1660: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 9.1660: Starting Timer
+A @ 9.1660: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+B @ 9.2506: Timer Interrupt
+B @ 9.2506: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+B @ 9.2506: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+B @ 9.2506: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 41124, LEN: 10, PAYLOAD: wwwwwwwwww]
+B @ 9.2506: CORRUPTING PACKET!
+B @ 9.2506: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+B @ 9.2506: Starting Timer
+A @ 9.6999: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 9.6999: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 9.7760: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 9.7760: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 9.9175: Received from Layer 3: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+B @ 9.9175: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+B @ 9.9409: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 9.9409: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 10.1170: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 10.1170: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 10.3055: Received from Layer 3
+B @ 10.3055: Passing to the Network Layer: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+B @ 10.3178: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+B @ 10.3178: Passing to application: dddddddddd
+B @ 10.3178: Passing to the Network Layer: [SEQ: 0, ACK: 3, ACK_FLAG: True, CKSUM: 65276, LEN: 0]
+B @ 10.7548: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+B @ 10.7548: Passing to application: eeeeeeeeee
+B @ 10.7548: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 10.9310: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 10.9310: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 11.1903: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+A @ 11.1903: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 11.1903: CORRUPTING PACKET!
+A @ 11.2149: Received from Layer 3: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 41124, LEN: 10, PAYLOAD: wwwwwwwwww]
+A @ 11.2149: Passing to application: wwwwwwwwww
+A @ 11.2149: Passing to the Network Layer: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+A @ 11.3489: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 11.3489: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 11.6463: Received from Layer 3: [SEQ: 8199, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+A @ 11.6463: Passing to the Network Layer: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+B @ 11.7979: Received from Layer 3: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+B @ 11.7979: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 11.8693: Received from Layer 3: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+B @ 11.8693: Passing to the Network Layer: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+B @ 12.0677: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+B @ 12.0677: Passing to application: yyyyyyyyyy
+B @ 12.0677: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 12.1660: Timer Interrupt
+A @ 12.1660: Passing to the Network Layer: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+A @ 12.1660: Passing to the Network Layer: [SEQ: 4, ACK: 0, ACK_FLAG: False, CKSUM: 64256, LEN: 10, PAYLOAD: eeeeeeeeee]
+A @ 12.1660: CORRUPTING PACKET!
+A @ 12.1660: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+A @ 12.1660: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+A @ 12.1660: Starting Timer
+B @ 12.2506: Timer Interrupt
+B @ 12.2506: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+B @ 12.2506: Passing to the Network Layer: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+B @ 12.2506: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 41124, LEN: 10, PAYLOAD: wwwwwwwwww]
+B @ 12.2506: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+B @ 12.2506: Starting Timer
+B @ 12.5459: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+B @ 12.5459: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 12.5736: Received from Layer 3: [SEQ: 2, ACK: 0, ACK_FLAG: False, CKSUM: 2578, LEN: 10, PAYLOAD: bbbbbbbbbb]
+B @ 12.5736: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 12.8084: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 12.8084: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 12.9142: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+A @ 12.9142: Passing to the Network Layer: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+A @ 13.0442: Received from Layer 3
+A @ 13.0442: Passing to the Network Layer: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+A @ 13.0442: CORRUPTING PACKET!
+A @ 13.1797: Received from Layer 3: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+A @ 13.1797: Passing to application: vvvvvvvvvv
+A @ 13.1797: Passing to the Network Layer: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+A @ 13.1797: CORRUPTING PACKET!
+A @ 13.2154: Received from Layer 3: [SEQ: 0, ACK: 3, ACK_FLAG: True, CKSUM: 65276, LEN: 0]
+A @ 13.2154: Starting Timer
+A @ 13.2154: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 50118, LEN: 10, PAYLOAD: pppppppppp]
+A @ 13.2876: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 13.2876: Starting Timer
+A @ 13.2876: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 52687, LEN: 10, PAYLOAD: nnnnnnnnnn]
+A @ 13.4657: Received from Layer 3: [SEQ: 0, ACK: 2, ACK_FLAG: True, CKSUM: 65277, LEN: 0]
+A @ 13.4657: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 13.4961: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+A @ 13.4961: Passing to the Network Layer: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+B @ 13.6261: Received from Layer 3: [SEQ: 128, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 13.6261: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 14.0965: Received from Layer 3: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+B @ 14.0965: Starting Timer
+B @ 14.0965: Passing to the Network Layer: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+B @ 14.0965: Passing to the Network Layer: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 46260, LEN: 10, PAYLOAD: ssssssssss]
+B @ 14.0965: LOSING PACKET!
+B @ 14.1255: Received from Layer 3: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+B @ 14.1255: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 14.6028: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 14.6028: Starting Timer
+A @ 14.6028: Passing to the Network Layer: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 55256, LEN: 10, PAYLOAD: llllllllll]
+A @ 14.6657: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 14.6657: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 14.9766: Received from Layer 3: [SEQ: 0, ACK: 4, ACK_FLAG: True, CKSUM: 65275, LEN: 0]
+A @ 14.9766: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 15.2368: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 38555, LEN: 10, PAYLOAD: yyyyyyyyyy]
+B @ 15.2368: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 15.2368: CORRUPTING PACKET!
+B @ 15.3032: Received from Layer 3: [SEQ: 3, ACK: 0, ACK_FLAG: False, CKSUM: 7, LEN: 10, PAYLOAD: dddddddddd]
+B @ 15.3032: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 15.5715: Received from Layer 3
+B @ 15.5715: Passing to the Network Layer: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+B @ 15.8866: Received from Layer 3: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+B @ 15.8866: Passing to application: xxxxxxxxxx
+B @ 15.8866: Passing to the Network Layer: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+A @ 16.0647: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+A @ 16.0647: Passing to application: uuuuuuuuuu
+A @ 16.0647: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 16.0927: Received from Layer 3: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 41124, LEN: 10, PAYLOAD: wwwwwwwwww]
+A @ 16.0927: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 16.4561: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 16.4561: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 16.6272: Received from Layer 3: [SEQ: 5, ACK: 0, ACK_FLAG: False, CKSUM: 37270, LEN: 10, PAYLOAD: zzzzzzzzzz]
+A @ 16.6272: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 16.7823: Received from Layer 3: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+A @ 16.7823: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 16.8673: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 16.8673: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 17.0965: Timer Interrupt
+B @ 17.0965: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+B @ 17.0965: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+B @ 17.0965: Passing to the Network Layer: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+B @ 17.0965: Passing to the Network Layer: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 46260, LEN: 10, PAYLOAD: ssssssssss]
+B @ 17.0965: Starting Timer
+B @ 17.3149: Received from Layer 3: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 50118, LEN: 10, PAYLOAD: pppppppppp]
+B @ 17.3149: Passing to application: pppppppppp
+B @ 17.3149: Passing to the Network Layer: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+B @ 17.4374: Received from Layer 3: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+B @ 17.4374: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 17.4464: Received from Layer 3: [SEQ: 0, ACK: 38, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+B @ 17.4464: Passing to the Network Layer: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+B @ 17.5342: Received from Layer 3: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+B @ 17.5342: Starting Timer
+B @ 17.5342: Passing to the Network Layer: [SEQ: 11, ACK: 0, ACK_FLAG: False, CKSUM: 47544, LEN: 10, PAYLOAD: rrrrrrrrrr]
+B @ 17.5342: LOSING PACKET!
+A @ 17.6028: Timer Interrupt
+A @ 17.6028: Passing to the Network Layer: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+A @ 17.6028: Passing to the Network Layer: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 50118, LEN: 10, PAYLOAD: pppppppppp]
+A @ 17.6028: LOSING PACKET!
+A @ 17.6028: Passing to the Network Layer: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 52687, LEN: 10, PAYLOAD: nnnnnnnnnn]
+A @ 17.6028: Passing to the Network Layer: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 55256, LEN: 10, PAYLOAD: llllllllll]
+A @ 17.6028: CORRUPTING PACKET!
+A @ 17.6028: Starting Timer
+B @ 17.8114: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 52687, LEN: 10, PAYLOAD: nnnnnnnnnn]
+B @ 17.8114: Passing to application: nnnnnnnnnn
+B @ 17.8114: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+B @ 17.8114: CORRUPTING PACKET!
+B @ 17.8339: Received from Layer 3
+B @ 17.8339: Passing to the Network Layer: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 18.1967: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 18.1967: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 18.2603: Received from Layer 3: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+A @ 18.2603: Passing to application: tttttttttt
+A @ 18.2603: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 19.1080: Received from Layer 3: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 55256, LEN: 10, PAYLOAD: llllllllll]
+B @ 19.1080: Passing to application: llllllllll
+B @ 19.1080: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 19.1080: LOSING PACKET!
+A @ 19.2642: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 19.2642: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 19.7918: Received from Layer 3: [SEQ: 0, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 19.7918: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 19.8294: Received from Layer 3: [SEQ: 0, ACK: 6, ACK_FLAG: True, CKSUM: 65273, LEN: 0]
+A @ 19.8294: Starting Timer
+A @ 19.8294: Passing to the Network Layer: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 56540, LEN: 10, PAYLOAD: kkkkkkkkkk]
+A @ 19.8912: Received from Layer 3: [SEQ: 131072, ACK: 5, ACK_FLAG: True, CKSUM: 65274, LEN: 0]
+A @ 19.8912: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 20.0047: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+B @ 20.0047: Starting Timer
+B @ 20.0047: Passing to the Network Layer: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+B @ 20.5422: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+B @ 20.5422: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 20.6609: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+B @ 20.6609: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 20.7656: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+B @ 20.7656: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 20.9168: Received from Layer 3: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+A @ 20.9168: Starting Timer
+A @ 20.9168: Passing to the Network Layer: [SEQ: 11, ACK: 0, ACK_FLAG: False, CKSUM: 59109, LEN: 10, PAYLOAD: iiiiiiiiii]
+A @ 21.1003: Received from Layer 3: [SEQ: 7, ACK: 0, ACK_FLAG: False, CKSUM: 42408, LEN: 10, PAYLOAD: vvvvvvvvvv]
+A @ 21.1003: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+A @ 21.1217: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 43692, LEN: 10, PAYLOAD: uuuuuuuuuu]
+A @ 21.1217: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+A @ 21.2858: Received from Layer 3: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 46260, LEN: 10, PAYLOAD: ssssssssss]
+A @ 21.2858: Passing to application: ssssssssss
+A @ 21.2858: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 21.6354: Received from Layer 3: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+A @ 21.6354: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 21.7150: Received from Layer 3: [SEQ: 0, ACK: 7, ACK_FLAG: True, CKSUM: 65272, LEN: 0]
+A @ 21.7150: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 22.1093: Received from Layer 3: [SEQ: 6, ACK: 0, ACK_FLAG: False, CKSUM: 39839, LEN: 10, PAYLOAD: xxxxxxxxxx]
+B @ 22.1093: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 22.1604: Received from Layer 3: [SEQ: 1, ACK: 0, ACK_FLAG: False, CKSUM: 55256, LEN: 10, PAYLOAD: llllllllll]
+B @ 22.1604: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 22.1604: LOSING PACKET!
+B @ 22.6283: Received from Layer 3: [SEQ: 8, ACK: 0, ACK_FLAG: False, CKSUM: 52687, LEN: 10, PAYLOAD: nnnnnnnnnn]
+B @ 22.6283: Passing to the Network Layer: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+A @ 22.9233: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 22.9233: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 22.9233: LOSING PACKET!
+B @ 23.0047: Timer Interrupt
+B @ 23.0047: Passing to the Network Layer: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+B @ 23.0047: Passing to the Network Layer: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 46260, LEN: 10, PAYLOAD: ssssssssss]
+B @ 23.0047: Passing to the Network Layer: [SEQ: 11, ACK: 0, ACK_FLAG: False, CKSUM: 47544, LEN: 10, PAYLOAD: rrrrrrrrrr]
+B @ 23.0047: Passing to the Network Layer: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+B @ 23.0047: Starting Timer
+A @ 23.2699: Received from Layer 3: [SEQ: 0, ACK: 8, ACK_FLAG: True, CKSUM: 65271, LEN: 0]
+A @ 23.2699: Starting Timer
+A @ 23.2699: Passing to the Network Layer: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 60393, LEN: 10, PAYLOAD: hhhhhhhhhh]
+B @ 23.3855: Received from Layer 3: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 56540, LEN: 10, PAYLOAD: kkkkkkkkkk]
+B @ 23.3855: Passing to application: kkkkkkkkkk
+B @ 23.3855: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 23.8286: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 23.8286: Starting Timer
+B @ 23.8286: Passing to the Network Layer: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+B @ 23.9781: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 23.9781: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 24.7418: Received from Layer 3: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+A @ 24.7418: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 25.0216: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 25.0216: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 25.0295: Received from Layer 3: [SEQ: 11, ACK: 0, ACK_FLAG: False, CKSUM: 59109, LEN: 10, PAYLOAD: iiiiiiiiii]
+B @ 25.0295: Passing to application: iiiiiiiiii
+B @ 25.0295: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 25.3816: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 25.3816: Starting Timer
+B @ 25.5285: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 25.5285: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 25.5665: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+B @ 25.5665: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 25.9615: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+A @ 25.9615: Starting Timer
+A @ 25.9615: Passing to the Network Layer: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 62962, LEN: 10, PAYLOAD: ffffffffff]
+A @ 25.9639: Received from Layer 3: [SEQ: 10, ACK: 0, ACK_FLAG: False, CKSUM: 46260, LEN: 10, PAYLOAD: ssssssssss]
+A @ 25.9639: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 26.1110: Received from Layer 3: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+A @ 26.1110: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 26.1990: Received from Layer 3: [SEQ: 0, ACK: 9, ACK_FLAG: True, CKSUM: 65270, LEN: 0]
+A @ 26.1990: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 26.3147: Received from Layer 3: [SEQ: 9, ACK: 0, ACK_FLAG: False, CKSUM: 44976, LEN: 10, PAYLOAD: tttttttttt]
+A @ 26.3147: Passing to the Network Layer: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 26.4511: Received from Layer 3: [SEQ: 11, ACK: 0, ACK_FLAG: False, CKSUM: 47544, LEN: 10, PAYLOAD: rrrrrrrrrr]
+A @ 26.4511: Passing to application: rrrrrrrrrr
+A @ 26.4511: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 26.8475: Received from Layer 3: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 60393, LEN: 10, PAYLOAD: hhhhhhhhhh]
+B @ 26.8475: Passing to application: hhhhhhhhhh
+B @ 26.8475: Passing to the Network Layer: [SEQ: 0, ACK: 12, ACK_FLAG: True, CKSUM: 65267, LEN: 0]
+B @ 26.8475: CORRUPTING PACKET!
+A @ 26.9936: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+A @ 26.9936: Starting Timer
+A @ 26.9985: Received from Layer 3: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+A @ 26.9985: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 27.2174: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 27.2174: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 27.4131: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+A @ 27.4131: Starting Timer
+B @ 27.6598: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 27.6598: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 27.8965: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 27.8965: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 27.9484: Received from Layer 3: [SEQ: 0, ACK: 10, ACK_FLAG: True, CKSUM: 65269, LEN: 0]
+B @ 27.9484: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 28.1471: Received from Layer 3: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 62962, LEN: 10, PAYLOAD: ffffffffff]
+B @ 28.1471: Passing to application: ffffffffff
+B @ 28.1471: Passing to the Network Layer: [SEQ: 0, ACK: 13, ACK_FLAG: True, CKSUM: 65266, LEN: 0]
+B @ 28.2449: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 28.2449: Starting Timer
+A @ 28.7923: Received from Layer 3: [SEQ: 0, ACK: 12, ACK_FLAG: True, CKSUM: 65267, LEN: 0]
+A @ 28.7923: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 29.0995: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 29.0995: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+A @ 29.8699: Received from Layer 3: [SEQ: 0, ACK: 13, ACK_FLAG: True, CKSUM: 65266, LEN: 0]
+B @ 30.3579: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 30.3579: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 31.2449: Timer Interrupt
+B @ 31.2449: Passing to the Network Layer: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+B @ 31.2449: LOSING PACKET!
+B @ 31.2449: Passing to the Network Layer: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+B @ 31.2449: Starting Timer
+A @ 31.7970: Received from Layer 3: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+A @ 31.7970: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 32.2730: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 32.2730: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 34.2449: Timer Interrupt
+B @ 34.2449: Passing to the Network Layer: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+B @ 34.2449: Passing to the Network Layer: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+B @ 34.2449: Starting Timer
+A @ 34.7143: Received from Layer 3: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+A @ 34.7143: Passing to the Network Layer: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+A @ 34.9403: Received from Layer 3: [SEQ: 12, ACK: 0, ACK_FLAG: False, CKSUM: 48828, LEN: 10, PAYLOAD: qqqqqqqqqq]
+A @ 34.9403: Passing to application: qqqqqqqqqq
+A @ 34.9403: Passing to the Network Layer: [SEQ: 0, ACK: 12, ACK_FLAG: True, CKSUM: 65267, LEN: 0]
+B @ 35.3913: Received from Layer 3: [SEQ: 0, ACK: 11, ACK_FLAG: True, CKSUM: 65268, LEN: 0]
+B @ 35.3913: ERROR: ATTEMPTED TO START TIMER WHILE ONE IS ALREADY RUNNING
+B @ 35.7147: Received from Layer 3: [SEQ: 0, ACK: 12, ACK_FLAG: True, CKSUM: 65267, LEN: 0]
+B @ 35.7147: Starting Timer
+B @ 38.7147: Timer Interrupt
+B @ 38.7147: Passing to the Network Layer: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+B @ 38.7147: Starting Timer
+A @ 38.9799: Received from Layer 3: [SEQ: 13, ACK: 0, ACK_FLAG: False, CKSUM: 51397, LEN: 10, PAYLOAD: oooooooooo]
+A @ 38.9799: Passing to application: oooooooooo
+A @ 38.9799: Passing to the Network Layer: [SEQ: 0, ACK: 13, ACK_FLAG: True, CKSUM: 65266, LEN: 0]
+B @ 39.8792: Received from Layer 3: [SEQ: 0, ACK: 13, ACK_FLAG: True, CKSUM: 65266, LEN: 0]
+Simulator terminated at time 39.8792435548707 after sending 26 msgs from layer5
+
